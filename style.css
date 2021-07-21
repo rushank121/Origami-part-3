@@ -1,0 +1,51 @@
+            h1 {
+                color: brown;
+                padding-left:1500px
+            }
+            .header {
+                background-color: aqua;
+                display: flex;
+                justify-content: space-between;
+            }
+            .name {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px;
+                font-size: 20px;
+                font-family: sans-serif;
+                font-weight: 400;
+                color: #f87307;
+                text-align: center;
+                font: small-caps bold 2.5em Pussycat, Algerian, Broadway;
+
+            }
+            .grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                
+            }
+            .item {
+                
+                position: relative;
+            }
+            .footer {
+                display: flex;
+                justify-content: flex-end;
+            }
+             .item img{
+                border: solid;
+            }  
+            .item p{
+                position:absolute;
+                top: 150px;
+                left:150px;
+                transform: translate(-50%,-50%);
+                opacity: 0;
+            }
+            .item:hover p{
+               opacity:1;
+            }
+            .item:hover a{
+                  opacity: 0.3;
+            }
